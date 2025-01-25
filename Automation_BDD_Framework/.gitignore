@@ -1,1 +1,9 @@
-/target/
+target/
+test-output/
+ExtentReports/
+PdfReport/
+logs/
+logfile.log/
+HTML_Result/
+ResultStorage/
+

@@ -62,19 +62,30 @@
       <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
     </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-01-25T20:10:34 IST" name="LMS-SIS enviroment" finished-at="2025-01-25T20:11:27 IST" duration-ms="53084">
+=======
+  <suite started-at="2025-01-25T20:04:12 IST" name="LMS-SIS enviroment" finished-at="2025-01-25T20:05:31 IST" duration-ms="78829">
+>>>>>>> branch 'Dev' of https://github.com/PakkiraReddyQA/Automation_BDD_Framework.git
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.ApplicationQuestionRunner@69c81773]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.InsistuteRunner@491b9b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2025-01-25T20:10:34 IST" name="Insistute" finished-at="2025-01-25T20:11:27 IST" duration-ms="53084">
       <class name="com.cucumber.TestRunner.InsistuteRunner">
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cucumber.TestRunner.InsistuteRunner@491b9b8]" started-at="2025-01-25T20:11:27 IST" name="setUpClass" finished-at="2025-01-25T20:11:27 IST" duration-ms="5" status="FAIL">
+=======
+    <test started-at="2025-01-25T20:04:12 IST" name="Insistute" finished-at="2025-01-25T20:05:31 IST" duration-ms="78829">
+      <class name="com.cucumber.TestRunner.ApplicationQuestionRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cucumber.TestRunner.ApplicationQuestionRunner@30f842ca]" started-at="2025-01-25T20:04:12 IST" name="setUpClass" finished-at="2025-01-25T20:04:13 IST" duration-ms="810" status="PASS">
+>>>>>>> branch 'Dev' of https://github.com/PakkiraReddyQA/Automation_BDD_Framework.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[org.testng.TestRunner@41abee65]]>
               </value>
             </param>
@@ -150,6 +161,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@41abee65]]>
+=======
+                <![CDATA[org.testng.TestRunner@75dbe490]]>
+>>>>>>> branch 'Dev' of https://github.com/PakkiraReddyQA/Automation_BDD_Framework.git
               </value>
             </param>
           </params>
@@ -159,7 +173,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="beforeclass(java.lang.String,java.lang.String)[pri:0, instance:com.cucumber.TestRunner.ApplicationQuestionRunner@69c81773]" started-at="2025-01-25T20:10:35 IST" name="beforeclass" finished-at="2025-01-25T20:10:39 IST" duration-ms="3875" status="PASS">
+=======
+        <test-method is-config="true" signature="beforeclass(java.lang.String,java.lang.String)[pri:0, instance:com.cucumber.TestRunner.ApplicationQuestionRunner@30f842ca]" started-at="2025-01-25T20:04:13 IST" name="beforeclass" finished-at="2025-01-25T20:04:39 IST" duration-ms="26278" status="PASS">
+>>>>>>> branch 'Dev' of https://github.com/PakkiraReddyQA/Automation_BDD_Framework.git
           <params>
             <param index="0">
               <value>
@@ -178,7 +196,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- beforeclass -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.ApplicationQuestionRunner@69c81773]" started-at="2025-01-25T20:10:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-25T20:11:25 IST" duration-ms="45841" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cucumber.TestRunner.ApplicationQuestionRunner@30f842ca]" started-at="2025-01-25T20:04:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-25T20:05:25 IST" duration-ms="45646" status="FAIL">
+>>>>>>> branch 'Dev' of https://github.com/PakkiraReddyQA/Automation_BDD_Framework.git
           <params>
             <param index="0">
               <value>
@@ -202,16 +224,22 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 at common.Wait.elementToBeClickable(Wait.java:29)
 at com.cucumber.pages.CommonElements.clickCreatebutton(CommonElements.java:126)
 at com.cucumber.steps.AppquestionStepDef.user_click_on_go_create_button(AppquestionStepDef.java:17)
-at ✽.user click on GO & Create button.(file:///C:/Users/PakkiraReddyYatam/git/repository2/Automation_BDD_Framework/src/test/resources/features/ApplicationQuestion.feature:11)
+at ✽.user click on GO & Create button.(file:///C:/Users/PakkiraReddyYatam/git/Automation_BDD_Framework/Automation_BDD_Framework/src/test/resources/features/ApplicationQuestion.feature:11)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Create']"}
   (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
+<<<<<<< HEAD
 Command: [890ea431173b008625c98cf86f8bec5d, findElement {using=xpath, value=//span[text()='Create']}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\PAKKIR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54724}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54724/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 890ea431173b008625c98cf86f8bec5d
+=======
+Command: [512509876755f72d7d2486739afd10ac, findElement {using=xpath, value=//span[text()='Create']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\PAKKIR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54627}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54627/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 512509876755f72d7d2486739afd10ac
+>>>>>>> branch 'Dev' of https://github.com/PakkiraReddyQA/Automation_BDD_Framework.git
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -303,14 +331,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.ApplicationQuestionRunner@69c81773]" started-at="2025-01-25T20:11:25 IST" name="testDownClass" finished-at="2025-01-25T20:11:25 IST" duration-ms="424" status="PASS">
+=======
+        <test-method is-config="true" signature="testDownClass()[pri:0, instance:com.cucumber.TestRunner.ApplicationQuestionRunner@30f842ca]" started-at="2025-01-25T20:05:25 IST" name="testDownClass" finished-at="2025-01-25T20:05:28 IST" duration-ms="3759" status="PASS">
+>>>>>>> branch 'Dev' of https://github.com/PakkiraReddyQA/Automation_BDD_Framework.git
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : ApplicationQuestionRunner.testDownClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- testDownClass -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.ApplicationQuestionRunner@69c81773]" started-at="2025-01-25T20:11:25 IST" name="tearDownClass" finished-at="2025-01-25T20:11:27 IST" duration-ms="2052" status="PASS">
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumber.TestRunner.ApplicationQuestionRunner@30f842ca]" started-at="2025-01-25T20:05:28 IST" name="tearDownClass" finished-at="2025-01-25T20:05:31 IST" duration-ms="2297" status="PASS">
+>>>>>>> branch 'Dev' of https://github.com/PakkiraReddyQA/Automation_BDD_Framework.git
           <reporter-output>
             <line>
               <![CDATA[Completed executing following method : AbstractTestNGCucumberTests.tearDownClass]]>
