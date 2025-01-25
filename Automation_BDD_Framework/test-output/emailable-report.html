@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">LMS-SIS enviroment</th></tr>
-<tr><td><a href="#t0">Insistute</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">51,475</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Insistute</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">78,829</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">LMS-SIS enviroment</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Insistute &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.cucumber.TestRunner.ApplicationQuestionRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1737814945684</td><td rowspan="1">44286</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">LMS-SIS enviroment</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Insistute &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.cucumber.TestRunner.ApplicationQuestionRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1737815679469</td><td rowspan="1">45646</td></tr></tbody>
 </table>
 <h2>Insistute</h2><h3 id="m0">com.cucumber.TestRunner.ApplicationQuestionRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Verify the Create Questions in Application Questions&quot;</td><td>&quot;Administrator - Application Questions.&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">About to begin executing following method : AbstractTestNGCucumberTests.runScenario<br/>Completed executing following method : AbstractTestNGCucumberTests.runScenario</div></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text()=&apos;Create&apos;]&apos; (tried for 20 second(s) with 1000 milliseconds interval)
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
@@ -19,16 +19,16 @@
 	at common.Wait.elementToBeClickable(Wait.java:29)
 	at com.cucumber.pages.CommonElements.clickCreatebutton(CommonElements.java:126)
 	at com.cucumber.steps.AppquestionStepDef.user_click_on_go_create_button(AppquestionStepDef.java:17)
-	at ✽.user click on GO &amp; Create button.(file:///C:/Users/PakkiraReddyYatam/git/repository2/Automation_BDD_Framework/src/test/resources/features/ApplicationQuestion.feature:11)
+	at ✽.user click on GO &amp; Create button.(file:///C:/Users/PakkiraReddyYatam/git/Automation_BDD_Framework/Automation_BDD_Framework/src/test/resources/features/ApplicationQuestion.feature:11)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Create&apos;]&quot;}
   (Session info: chrome=131.0.6778.265)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.13&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [25d7ec2ad5746d51902b896bcb7729c2, findElement {using=xpath, value=//span[text()=&apos;Create&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\PAKKIR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54445/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 25d7ec2ad5746d51902b896bcb7729c2
+Command: [512509876755f72d7d2486739afd10ac, findElement {using=xpath, value=//span[text()=&apos;Create&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\PAKKIR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54627}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54627/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 512509876755f72d7d2486739afd10ac
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
