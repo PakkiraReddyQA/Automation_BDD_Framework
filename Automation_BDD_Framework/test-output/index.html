@@ -144,9 +144,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.13&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [512509876755f72d7d2486739afd10ac, findElement {using=xpath, value=//span[text()=&apos;Create&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\PAKKIR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54627}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54627/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 512509876755f72d7d2486739afd10ac
+Command: [b54bc8688508710761dc3d64dee5a5ee, findElement {using=xpath, value=//span[text()=&apos;Create&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\PAKKIR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52367}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52367/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b54bc8688508710761dc3d64dee5a5ee
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -216,6 +216,7 @@ Session ID: 512509876755f72d7d2486739afd10ac
     &lt;parameter name=&quot;common.appname&quot; value=&quot;SISExcelReport&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.cucumber.TestRunner.ApplicationQuestionRunner&quot;/&gt;
+      &lt;class name=&quot;com.cucumber.TestRunner.InsistuteRunner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Insistute --&gt;
 &lt;/suite&gt; &lt;!-- LMS-SIS enviroment --&gt;
@@ -229,7 +230,7 @@ Session ID: 512509876755f72d7d2486739afd10ac
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Insistute (1 class)</span>
+                <span class="test-name">Insistute (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -267,12 +268,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.cucumber.TestRunner.ApplicationQuestionRunner')
-data.setCell(0, 3, 45646);
+data.setCell(0, 3, 50000);
 window.suiteTableData['LMS_SIS_enviroment']= { tableData: data, tableDiv: 'times-div-LMS_SIS_enviroment'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
               <div id="times-div-LMS_SIS_enviroment">
               </div> <!-- times-div-LMS_SIS_enviroment -->
             </div> <!-- times-div -->
@@ -307,26 +308,47 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.cucumber.TestRunner.ApplicationQuestionRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@75dbe490)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@64887fbc)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeclass(chrome, SISExcelReport)</span>
-                <span class="method-start">810 ms</span>
+                <span class="method-start">1382 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Verify the Create Questions in Application Questions", "Administrator - Application Questions.")</span>
-                <span class="method-start">27100 ms</span>
+                <span class="method-start">9008 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">testDownClass</span>
-                <span class="method-start">72753 ms</span>
+                <span class="method-start">59015 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">76513 ms</span>
+                <span class="method-start">77582 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.cucumber.TestRunner.InsistuteRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpClass(org.testng.TestRunner@64887fbc)</span>
+                <span class="method-start">96481 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclass</span>
+                <span class="method-start">96493 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">testDownClass</span>
+                <span class="method-start">96495 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">96497 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

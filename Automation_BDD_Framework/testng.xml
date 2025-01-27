@@ -11,10 +11,10 @@
 	<test name="Insistute">
 		<parameter name="browser" value="chrome" />
 		<parameter name="common.appname" value="SISExcelReport" />
-		<classes>
+		<classes> 
 
 			<class name="com.cucumber.TestRunner.ApplicationQuestionRunner" />
-
+			<class name="com.cucumber.TestRunner.InsistuteRunner"></class>
 
 		</classes>
 	</test>
